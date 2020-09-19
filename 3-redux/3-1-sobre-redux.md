@@ -8,4 +8,4 @@
 
 ---
 
-Sigamos con: [¿Por qué Redux?](../3-redux/3-2-por-que-redux.md)
+Sigamos con [¿Por qué Redux?](../3-redux/3-2-por-que-redux.md)

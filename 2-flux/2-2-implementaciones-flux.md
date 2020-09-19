@@ -20,4 +20,4 @@ No obstante **hoy en día la más usada y considerada prácticamente un estandar
 
 ---
 
-Sigamos con: [¿Que es Redux?](../3-redux/3-1-sobre-redux.md)
+Sigamos con [Redux](../3-redux/3-1-sobre-redux.md)

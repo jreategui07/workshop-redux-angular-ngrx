@@ -6,4 +6,4 @@ Con la finalidad de entender cómo trabaja Redux, veremos el estado como un **ob
 
 ---
 
-Sigamos con: [¿Es necesario tener un estado?](../1-estado/1-2-es-necesario.md)
+Sigamos con [¿Es necesario tener un estado?](../1-estado/1-2-es-necesario.md)

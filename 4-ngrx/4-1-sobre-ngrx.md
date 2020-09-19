@@ -1,5 +1,5 @@
 <p float="left">
-    <img src="../ngrx-logo.svg" alt="Workshop Redux en Angular con NgRx" width="100" />
+    <img src="../ngrx-logo.svg" alt="Workshop Redux en Angular con NgRx" width="90" />
 </p>
 
 NgRx es el estándar por defecto para implementar Redux en Angular, está librería está basada en RxJS.
@@ -16,4 +16,4 @@ NgRx es el estándar por defecto para implementar Redux en Angular, está librer
 
 ---
 
-Sigamos con: [Selectors y Effects](../4-ngrx/4-2-selector-effects.md)
+Sigamos con [Selectors y Effects](../4-ngrx/4-2-selector-effects.md)

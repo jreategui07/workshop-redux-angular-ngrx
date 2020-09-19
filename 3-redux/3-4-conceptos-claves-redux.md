@@ -12,4 +12,4 @@ Es importante aclarar, que **con Redux el estado de la aplicación es inmutable*
 
 ---
 
-Sigamos con: [¿Qué es NgRx?](../4-ngrx/4-1-sobre-ngrx.md)
+Sigamos con [NgRx](../4-ngrx/4-1-sobre-ngrx.md)

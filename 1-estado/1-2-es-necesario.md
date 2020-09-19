@@ -4,4 +4,4 @@
 
 ---
 
-Sigamos con: [¿Qué es Flux?](../2-flux/2-1-sobre-flux.md)
+Sigamos con [Flux](../2-flux/2-1-sobre-flux.md)
