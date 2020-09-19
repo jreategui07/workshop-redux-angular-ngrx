@@ -1,8 +1,8 @@
 # WORKSHOP
 
 <p float="left">
-    <img src="./redux-logo.png" alt="Workshop unit testing con Angular" width="360" />
-    <img src="./ngrx-logo.svg" alt="Workshop unit testing con Angular" width="110" />
+    <img src="./redux-logo.png" alt="Workshop Redux en Angular con NgRx" width="360" />
+    <img src="./ngrx-logo.svg" alt="Workshop Redux en Angular con NgRx" width="110" />
 </p>
 
 ## Redux en Angular con NgRx: Introducción y Primeros pasos
