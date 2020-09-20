@@ -6,7 +6,7 @@ Al gual que el patrón MVC tenemos un Modelo, una Vista y un Controlador, en Flu
 
 - **Acciones**: Es un objeto el cual indican una intención de hacer algo (ejemplo: agregar, eliminar, borrar, etc.) y lleva todos los datos necesarios en caso de ser requeridos.
 
-- **Dispatcher**: Propaga las acciones al Store, las cuales son procesadas en orden de llegada. Es un mediados entre las acciones y el store. En flus tenemos un único Dispatcher.
+- **Dispatcher**: Propaga las acciones al Store, las cuales son procesadas en orden de llegada. Es un mediador entre las acciones y el store. En Flux tenemos un único Dispatcher.
 
 - **Store**: Podríamos compararlo con el Modelo del patrón MVC ya que es el encargado de guardar los datos ó mejor dicho "El estado" de la aplicación. Cabe resaltar que en Flux podemos tener varios Stores.
 

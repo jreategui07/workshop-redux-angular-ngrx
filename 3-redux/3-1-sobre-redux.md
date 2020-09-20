@@ -8,4 +8,4 @@
 
 ---
 
-Sigamos con [Diferencias entre Flux y Redux](../3-redux/3-2-redux-flux-diferencias.md)
+Sigamos con [Arquitectura Redux](../3-redux/3-2-arquitectura-redux.md)
