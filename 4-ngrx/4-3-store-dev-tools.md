@@ -11,8 +11,6 @@ El Store Devtools, es una poderoso instrumento que nos provee herramientas para 
     <img src="ngrx-store-devtools.jpeg" alt="Workshop Redux en Angular con NgRx" width="550" />
 </p>
 
-[https://ngrx.io/guide/store-devtools](https://ngrx.io/guide/store-devtools)
-
 ---
 
 [Ir al inicio](https://github.com/jreategui07/workshop-redux-angular-ngrx)

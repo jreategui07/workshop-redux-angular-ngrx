@@ -24,26 +24,24 @@
 
 ### [**Flux**](2-flux/2-1-sobre-flux.md)
 
-- [¿Qué es Flux?](2-flux/2-1-sobre-flux.md)
-- [Implementaciones de Flux](2-flux/2-2-implementaciones-flux.md)
+- [Flux](2-flux/2-1-sobre-flux.md)
+- [Vista, Acciones, Dispatcher y Store](2-flux/2-2-vista-acciones-dispatcher-store.md)
+- [Implementaciones de Flux](2-flux/2-3-implementaciones-flux.md)
 
 ### [**Redux**](3-redux/3-1-sobre-redux.md)
 
-- [¿Qué es Redux?](3-redux/3-1-sobre-redux.md)
-- [¿Por qué Redux?](3-redux/3-2-por-que-redux.md)
-- [Actions, Reducers y Store](3-redux/3-3-actions-reducers-store.md)
-- [Conceptos claves de Redux](3-redux/3-4-conceptos-claves-redux.md)
+- [Redux](3-redux/3-1-sobre-redux.md)
+- [Arquitectura Redux](3-redux/3-2-arquitectura-redux.md)
+- [Principios de Redux](3-redux/3-3-principios-redux.md)
+- [¿Por qué Redux?](3-redux/3-4-por-que-redux.md)
+- [¿Necesito Redux?](3-redux/3-5-necesito-redux.md)
+- [Puede que no necesites Redux](3-redux/3-6-puede-no-necesites-redux.md)
 
 ### [**NgRx**](4-ngrx/4-1-sobre-ngrx.md)
 
-- [¿Qué es NgRx?](4-ngrx/4-1-sobre-ngrx.md)
-- [Selectors y Effects](4-2-selector-effects.md)
-- [Arquitectura NgRx](4-3-arquitectura-ngrx.md)
-- [Store Devtools](4-4-store-dev-tools.md)
-
-### [**Empecemos**](5-empecemos/empecemos.md)
-
-- [Empecemos](5-empecemos/empecemos.md)
+- [NgRx](4-ngrx/4-1-sobre-ngrx.md)
+- [Arquitectura NgRx](4-ngrx/4-2-arquitectura-ngrx.md)
+- [Store Devtools](4-ngrx/4-3-store-dev-tools.md)
 
 ### **Prerequisitos**
 
