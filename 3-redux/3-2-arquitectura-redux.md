@@ -13,7 +13,7 @@ Recordemos que Flux es un patrón de diseño y Redux es una librería que implem
 - **Estado Inmutable:**  En Redux hablamos de Reducers en lugar de Dispatcher. **Los Reducers son funciones puras los cuales aceptan el estado y una acción como argumentos**, y generan una nueva **COPIA** del estado anterior con las modificaciones. La palabra **COPIA** es importante ya que **Redux considera que el estado es inmutable**.
 
 <p float="left">
-    <img src="redux-architect.png" alt="Workshop Redux en Angular con NgRx" width="500" />
+    <img src="redux-architect.png" alt="Workshop Redux en Angular con NgRx" width="550" />
 </p>
 
 ---
