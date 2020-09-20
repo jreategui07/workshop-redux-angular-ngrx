@@ -1,8 +1,14 @@
 # Puede que no necesites Redux
 
-Redux es una poderosa herramienta que nos ayuda a simplificar la gestión del estado de nuestra aplicación y el flujo de datos hacia los componentes, no obstante, es importante destacar que Redux es mucho más que eso y **debemos ser bien precavidos antes de implementar esta arquitectura**, ya que esto conlleva a toda una forma de trabajo de la cual va a depender nuestra aplicación.
+Redux puede ser muy util, pero lo que menos queremos es terminar "*matando moscas a cañonazos*". Es importante saber que existen otras alternativas o formas de trabajo con las cuales podríamos pensar en la forma de trabajo de Redux sin implementarlo.
 
-A continuación detallamos **8 buenas razones descritas por Dan Abramov creador de Redux**, que nos ayudaran a identificar si en realidad lo necesitamos, ya que existen otras alternativas o formas de trabajo con las cuales podríamos pensar en la forma de trabajo de Redux sin implementarlo.
+<p float="left">
+    <img src="mosca-canononazos.png" alt="Workshop Redux en Angular con NgRx" width="180" />
+</p>
+
+Ya sabemos que esta poderosa poderosa herramienta nos ayuda a simplificar la gestión del estado de nuestra aplicación y el flujo de datos hacia los componentes, no obstante, Redux es mucho más que eso y **debemos ser bien cautelosos antes de implementar esta arquitectura**, ya que esto conlleva a toda una forma de trabajo de la cual va a depender nuestra aplicación.
+
+A continuación detallamos **8 buenas razones descritas por Dan Abramov creador de Redux**, que nos ayudaran a identificar si en realidad lo necesitamos.
 
 1. Persistir el estado a local-storage y luego iniciar desde el. sin mucho esfuerzo.
 2. Pre llenar el estado en el servidor, enviarlo al cliente en HTML, y arrancar desde ahí, sin mucho esfuerzo.
