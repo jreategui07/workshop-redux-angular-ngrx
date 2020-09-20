@@ -3,7 +3,7 @@
 Recordemos que Flux es un patrón de diseño y Redux es una librería que implementa Flux, por lo cual su arquitectura o esquema de trabajo es muy similar, salvo con ciertas modificaciones que detallamos a continuación.
 
 <p float="left">
-    <img src="redux-vs-flux.jpg" alt="Workshop Redux en Angular con NgRx" width="400" />
+    <img src="redux-vs-flux.jpg" alt="Workshop Redux en Angular con NgRx" width="550" />
 </p>
 
 - **Un solo Store:** A diferencia de Flux, Redux simplifica la gestión del estado con un único Store.
