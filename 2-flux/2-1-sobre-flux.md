@@ -20,4 +20,4 @@ Flux es una arquitectura creada por Facebook para el manejo del flujo de datos d
 
 ---
 
-Sigamos con [Implementaciones de Flux](../2-flux/2-2-implementaciones-flux.md)
+Sigamos con [Vista, Acciones, Dispatcher y Store](../2-flux/2-2-vista-acciones-dispatcher-store.md)

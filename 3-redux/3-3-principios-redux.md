@@ -1,6 +1,6 @@
-# Conceptos claves de Redux
+# Principios de Redux
 
-Al hablar de Redux, hay tres conceptos claves que debemos conocer:
+Al hablar de Redux, hay tres principios claves que debemos conocer:
 
 1. **La única fuente de la verdad**: La arquitectura Flux propone que podemos tener varios Stores para almacenar el estado, o secciones del estado, no obstante en Redux solo tenemos un único Store en el cual almacenamos el estado global de la aplicación.
 
@@ -12,4 +12,4 @@ Es importante aclarar, que **con Redux el estado de la aplicación es inmutable*
 
 ---
 
-Sigamos con [NgRx](../4-ngrx/4-1-sobre-ngrx.md)
+Sigamos con [¿Por qué Redux?](../3-redux/3-4-por-que-redux.md)
