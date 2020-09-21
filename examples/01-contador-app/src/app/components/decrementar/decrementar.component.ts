@@ -1,4 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { AppState } from '../../store/app.reducers';
+import * as contadorActions from '../../store/actions/contador.actions';
 
 @Component({
   selector: 'app-decrementar',
@@ -6,20 +9,20 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class DecrementarComponent implements OnInit {
 
-  @Input() contador: number;
-  @Output() contadorActualizado = new EventEmitter<number>();
+  contador: number;
 
-  constructor() { }
+  constructor(
+    private store: Store<AppState>
+  ) { }
 
   ngOnInit(): void {
+    this.store.select('contador').subscribe(contador => {
+      this.contador = contador;
+    });
   }
 
   decrementar(): void {
-    this.contadorActualizado.emit(this.contador - 1);
-  }
-
-  contadorReset(): void {
-    this.contadorActualizado.emit(0);
+    this.store.dispatch(contadorActions.decrementar());
   }
 
 }

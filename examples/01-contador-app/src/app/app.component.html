@@ -1,20 +1,19 @@
-<app-banner [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-banner>
-
+<app-banner></app-banner>
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <app-incrementar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-incrementar>
+      <app-incrementar></app-incrementar>
     </div>
     <div class="col-sm-6">
-      <app-decrementar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-decrementar>
+      <app-decrementar></app-decrementar>
     </div>
   </div>
   <div class="row mt-3">
     <div class="col-sm-6">
-      <app-multiplicar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-multiplicar>
+      <app-multiplicar></app-multiplicar>
     </div>
     <div class="col-sm-6">
-      <app-dividir [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-dividir>
+      <app-dividir></app-dividir>
     </div>
   </div>
 </div>
