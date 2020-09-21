@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  contador = 10;
+
+  contador = 0;
+
+  actualizarContador(nuevoContador): void {
+    this.contador = nuevoContador;
+  }
+
 }
