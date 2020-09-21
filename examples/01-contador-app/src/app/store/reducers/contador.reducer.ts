@@ -3,7 +3,7 @@ import * as contadorAcciones from '../actions/contador.actions';
 
 export const initialState = 0;
 
-const _counterReducer = createReducer(initialState,
+const contadorReducerFn = createReducer(initialState,
   on(contadorAcciones.incrementar, state => state + 1),
   on(contadorAcciones.decrementar, state => state - 1),
   on(contadorAcciones.multiplicar, (state, { numero }) => state * numero),
@@ -12,6 +12,6 @@ const _counterReducer = createReducer(initialState,
   on(contadorAcciones.reset, state => 0),
 );
 
-export function counterReducer(state, action) {
-  return _counterReducer(state, action);
+export function contadorReducer(state, action) {
+  return contadorReducerFn(state, action);
 }
