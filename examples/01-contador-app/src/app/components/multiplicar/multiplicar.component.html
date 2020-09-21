@@ -1,8 +1,12 @@
 <div class="card">
   <div class="card-body text-center">
-    <p class="card-text">Estado de la aplicación:</p>
+    <p class="card-text">Contador:</p>
     <h2 class="card-title">{{ contador }}</h2>
-    <a href="#" class="btn btn-primary mr-1" (click)="multiplicar()">Multiplicar x2</a>
-    <app-btn-reset (contadorReseteado)="contadorReset()"></app-btn-reset>
+    <div class="col-lg-6 offset-lg-3 ">
+      <div class="row justify-content-center">
+        <input class="mr-1" width="100" #multiplicarInput type="number" placeholder="Enter para multiplicar" (keyup.enter)="multiplicar(multiplicarInput.value)"/>
+        <app-btn-reset (contadorReseteado)="contadorReset()"></app-btn-reset>
+      </div>
+    </div>
   </div>
 </div>

@@ -14,8 +14,9 @@ export class DividirComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  dividir(): void {
-    this.contadorActualizado.emit(this.contador / 2);
+  dividir(value: string): void {
+    // tslint:disable-next-line: radix
+    this.contadorActualizado.emit(this.contador / parseInt(value));
   }
 
   contadorReset(): void {

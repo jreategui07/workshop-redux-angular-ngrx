@@ -14,8 +14,9 @@ export class MultiplicarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  multiplicar(): void {
-    this.contadorActualizado.emit(this.contador * 2);
+  multiplicar(value: string): void {
+    // tslint:disable-next-line: radix
+    this.contadorActualizado.emit(this.contador * parseInt(value));
   }
 
   contadorReset(): void {
