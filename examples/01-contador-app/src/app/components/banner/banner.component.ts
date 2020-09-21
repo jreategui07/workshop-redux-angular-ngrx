@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-banner',
@@ -7,10 +7,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BannerComponent implements OnInit {
 
   @Input() contador: number;
+  @Output() contadorActualizado = new EventEmitter<number>();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  contadorReset(): void {
+    this.contadorActualizado.emit(0);
   }
 
 }

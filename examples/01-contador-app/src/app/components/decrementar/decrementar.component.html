@@ -3,6 +3,6 @@
     <p class="card-text">Estado de la aplicación:</p>
     <h2 class="card-title">{{ contador }}</h2>
     <a href="#" class="btn btn-primary mr-1" (click)="decrementar()">Decrementar</a>
-    <a href="#" class="btn btn-danger">Reset</a>
+    <app-btn-reset (contadorReseteado)="contadorReset()"></app-btn-reset>
   </div>
 </div>

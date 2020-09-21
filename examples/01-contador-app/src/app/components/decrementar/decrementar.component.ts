@@ -18,4 +18,8 @@ export class DecrementarComponent implements OnInit {
     this.contadorActualizado.emit(this.contador - 1);
   }
 
+  contadorReset(): void {
+    this.contadorActualizado.emit(0);
+  }
+
 }

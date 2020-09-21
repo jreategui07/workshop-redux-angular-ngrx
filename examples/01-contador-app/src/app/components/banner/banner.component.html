@@ -1,4 +1,5 @@
-<div class="jumbotron">
+<div class="jumbotron text-center">
   <p class="lead">Estado de la aplicación:</p>
-  <h1 class="display-4 text-center">{{ contador }}</h1>
+  <h1 class="display-4">{{ contador }}</h1>
+  <app-btn-reset (contadorReseteado)="contadorReset()"></app-btn-reset>
 </div>

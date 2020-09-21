@@ -5,6 +5,7 @@ import { IncrementarComponent } from './incrementar/incrementar.component';
 import { DecrementarComponent } from './decrementar/decrementar.component';
 import { MultiplicarComponent } from './multiplicar/multiplicar.component';
 import { DividirComponent } from './dividir/dividir.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DividirComponent } from './dividir/dividir.component';
     DividirComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
     BannerComponent,

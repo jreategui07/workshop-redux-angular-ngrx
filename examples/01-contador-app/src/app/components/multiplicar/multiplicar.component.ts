@@ -18,4 +18,8 @@ export class MultiplicarComponent implements OnInit {
     this.contadorActualizado.emit(this.contador * 2);
   }
 
+  contadorReset(): void {
+    this.contadorActualizado.emit(0);
+  }
+
 }
