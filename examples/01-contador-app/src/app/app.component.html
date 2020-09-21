@@ -1,51 +1,20 @@
-<div class="jumbotron">
-  <p class="lead">Estado de la aplicación:</p>
-  <h1 class="display-4 text-center">{{ contador }}</h1>
-</div>
+<app-banner [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-banner>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body text-center">
-          <p class="card-text">Estado de la aplicación:</p>
-          <h2 class="card-title">{{ contador }}</h2>
-          <a href="#" class="btn btn-primary mr-1">Incrementar</a>
-          <a href="#" class="btn btn-danger">Reset</a>
-        </div>
-      </div>
+      <app-incrementar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-incrementar>
     </div>
     <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body text-center">
-          <p class="card-text">Estado de la aplicación:</p>
-          <h2 class="card-title">{{ contador }}</h2>
-          <a href="#" class="btn btn-primary mr-1">Decrementar</a>
-          <a href="#" class="btn btn-danger">Reset</a>
-        </div>
-      </div>
+      <app-decrementar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-decrementar>
     </div>
   </div>
   <div class="row mt-3">
     <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body text-center">
-          <p class="card-text">Estado de la aplicación:</p>
-          <h2 class="card-title">{{ contador }}</h2>
-          <a href="#" class="btn btn-primary mr-1">Multiplicar</a>
-          <a href="#" class="btn btn-danger">Reset</a>
-        </div>
-      </div>
+      <app-multiplicar [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-multiplicar>
     </div>
     <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body text-center">
-          <p class="card-text">Estado de la aplicación:</p>
-          <h2 class="card-title">{{ contador }}</h2>
-          <a href="#" class="btn btn-primary mr-1">Dividir</a>
-          <a href="#" class="btn btn-danger">Reset</a>
-        </div>
-      </div>
+      <app-dividir [contador]="contador" (contadorActualizado)="actualizarContador($event)"></app-dividir>
     </div>
   </div>
 </div>
