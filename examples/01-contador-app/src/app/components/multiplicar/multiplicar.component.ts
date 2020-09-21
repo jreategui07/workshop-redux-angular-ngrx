@@ -15,6 +15,9 @@ export class MultiplicarComponent implements OnInit {
   }
 
   multiplicar(value: string): void {
+    if (!value) {
+      return;
+    }
     // tslint:disable-next-line: radix
     this.contadorActualizado.emit(this.contador * parseInt(value));
   }

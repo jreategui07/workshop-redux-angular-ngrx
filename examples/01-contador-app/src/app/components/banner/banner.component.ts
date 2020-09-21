@@ -19,6 +19,9 @@ export class BannerComponent implements OnInit {
   }
 
   initCustomValue(value: string): void {
+    if (!value) {
+      return;
+    }
     // tslint:disable-next-line: radix
     this.contadorActualizado.emit(parseInt(value));
   }
