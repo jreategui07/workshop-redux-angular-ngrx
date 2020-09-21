@@ -15,7 +15,7 @@ export class IncrementarComponent implements OnInit {
   }
 
   incrementar(): void {
-    this.contadorActualizado.emit(this.contador + 1);
+    this.contadorActualizado.emit(this.contador += 1);
   }
 
   contadorReset(): void {

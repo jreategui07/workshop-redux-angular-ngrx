@@ -1,5 +1,6 @@
 <div class="jumbotron text-center">
   <p class="lead">Estado de la aplicación:</p>
   <h1 class="display-4">{{ contador }}</h1>
+  <input class="mr-1" #customValueInput type="number" [value]="contador" placeholder="Enter para inicializar" (change)="initCustomValue(customValueInput.value)"/>
   <app-btn-reset (contadorReseteado)="contadorReset()"></app-btn-reset>
 </div>
